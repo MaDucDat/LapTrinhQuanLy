@@ -5,6 +5,14 @@
     <artifactId>projectTeam1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.music-of-the-ainur</groupId>
+            <artifactId>jdbc-almaren_2.11</artifactId>
+            <version>0.0.5-2.4</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>

@@ -99,6 +99,11 @@ public class Nhan_Vien extends javax.swing.JFrame {
         jLabel5.setText("Số điện thoại");
 
         jButton2.setText("Lưu");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -197,6 +202,9 @@ public class Nhan_Vien extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    public void setForm(){
+//        txtMaNhanVien.setText("")
+    }
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
@@ -216,6 +224,15 @@ public class Nhan_Vien extends javax.swing.JFrame {
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
+    
+//    public QL_NhanVien getModel() {
+//        Nhan_Vien nv = new Nhan_Vien();
+//        MaNhanVien(txt)
+//    }
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       // TODO add your handling code here:
+       dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -72,15 +72,15 @@ public class BillView extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Mã nhân viên", "Tên nhân vien", "Số điện thoại", "Giới tính"
+                "Mã nhân viên", "Tên nhân viên", "CCCD", "Số điện thoại", "Giới Tính", "Ca làm"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -190,6 +190,7 @@ public class BillView extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        
         
     }//GEN-LAST:event_jButton5ActionPerformed
 
